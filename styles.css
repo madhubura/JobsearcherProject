@@ -1,0 +1,253 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand{
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(64, 155, 234);
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(64, 155, 234);
+    transition: 0.3s;
+}
+.nav-item{
+    color:rgb(64, 155, 234);
+    font-weight: 500;
+    padding-left: 15px;
+}
+.btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border:  none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color:rgb(40, 126, 202);
+}
+.btn0:hover{
+    background: rgb(26, 111, 186);
+    transition: all 0.5s;
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    background: transparent;
+    color: rgb(64, 155, 234);
+    outline: none;
+    border: 2px solid rgb(64, 155, 234);
+}
+.btn1:hover{
+    background:rgb(64, 155, 234);
+    transition: all 0.5s;
+    color: white;
+    border: none;
+    outline: none;
+}
+/*================== MAIN  =========================*/
+.main{
+    background: url(./WhatsApp\ Image\ 2024-09-18\ at\ 17.09.35_9bd6e566.jpg);
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h2{
+    font-size: 3rem;
+    font-weight: 800px;
+    color:rgb(29, 117, 194);
+}
+.main input{
+    height: 56px;
+    width: 45%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.btn2{
+    height: 55px;
+    width: 15%;
+    background-color:rgb(64, 155, 234);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left:-4px ;
+
+}
+.btn2:hover{
+    background:rgb(40, 120, 189);
+    transition: all 0.5s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.blue {
+    color: rgb(64, 155, 234);
+    font-size:2rem ;
+}
+/*================= Services ==========================*/
+
+.Services h2{
+    color: black;
+    font-size: 3.5rem;
+}.Services .card:hover{
+    margin-right: 20px;
+    color:rgb(30, 129, 216);
+    gap: 10px;
+    vertical-align: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.61);
+-webkit-box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.61);
+-moz-box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.61);
+
+}
+.btn3{
+    height: 50px;
+    width: 50%;
+    border: 1px solid rgb(30, 129, 216);
+    background: transparent;
+    color: rgb(30, 129, 216);
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.btn3:hover{
+    background:rgb(30, 129, 216) ;
+    color:white;
+    border: none;
+    transition: all 0.5s;
+
+}
+/*=============================  BLOG  =============================*/
+.blog{
+    background:#d0e8f6;
+    width: 100%;
+}
+.blog h2{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+    font-size: 3rem;
+    font-weight: 800px;
+    color:rgb(29, 117, 194);
+}
+h6{
+    padding-left:25px ;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*-------------------  ABOUT  ------------------*/
+.about{
+    background:#d0e8f6;
+    width: 100%;
+}
+.about h2{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+    font-size: 3rem;
+    font-weight: 800px;
+    color:rgb(29, 117, 194);
+}
+h6{
+    padding-left:25px ;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*------------------ footer  ------------------*/
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+
+
